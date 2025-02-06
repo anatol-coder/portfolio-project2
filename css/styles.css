@@ -18,7 +18,7 @@ h5 {
   color: black;
 }
 
-h2 {
+.hero h2 {
   font-family: var(--secondary-font-family);
   font-size: 24px;
   font-weight: regular;
@@ -48,4 +48,51 @@ h2 {
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
+}
+p {
+  font-size: 18px;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 64px;
+}
+.btn-branding-outsourcing {
+  color: var(--branding-color);
+  border-color: var(--branding-color);
+  padding: 18px 25px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: var(--secondary-font-family);
+  background-color: white;
+  margin-top: 25px;
+  margin-bottom: 110px;
+}
+.images-descriptions {
+  background-color: white;
+}
+.images-descriptions p {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.container p {
+  text-align: left;
+  opacity: 70%;
+}
+
+.images-descriptions h2 {
+  padding-top: 95px;
+}
+
+.images-descriptions p {
+  text-align: left;
+  opacity: 70%;
+}
+
+.description {
+  padding-left: 61px;
+}
+.about-project p {
+  text-align: center;
 }
