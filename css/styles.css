@@ -93,6 +93,27 @@ h2 {
 .description {
   padding-left: 61px;
 }
-.about-project p {
-  text-align: center;
+
+@media (max-width: 900px) {
+  .hero h1 {
+    font-size: 60x;
+    line-height: 1.5;
+  }
+
+  .hero {
+    padding-top: 55px;
+  }
+
+  .images-descriptions h2 {
+    font-size: 50px;
+  }
+  .images-descriptions p {
+    margin-bottom: 10px;
+  }
+  .description {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 10px;
+  }
 }
