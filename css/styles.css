@@ -93,21 +93,21 @@ h2 {
 .description {
   padding-left: 61px;
 }
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
-.about-section-content {
+.content {
   padding: 20px 94px 55px 0;
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
 }
-.about-section h2 {
+.content-container h2 {
   font-family: var(--secondary-font-family);
   font-weight: bold;
   font-size: 18px;
 }
-.about-section p {
+.content-container p {
   font-family: var(--secondary-font-family);
   font-size: 16px;
   font-weight: regular;
@@ -135,16 +135,16 @@ h2 {
     width: 100%;
     padding-top: 10px;
   }
-  .about-section-content {
+  .content {
     text-align: center;
     padding: 0;
     margin-top: 0;
   }
-  .about-section h1 {
+  .content-container h1 {
     padding: 0;
     margin-top: 0;
   }
-  .about-section img {
+  .content-container img {
     padding-top: 70px;
   }
 }
