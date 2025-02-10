@@ -142,14 +142,11 @@ h2 {
     padding: 0;
     margin-top: 0;
   }
-  .content-container {
-    padding-top: 5px;
-  }
-  .content-container h1 {
-    padding: 0;
-    margin-top: 0;
-  }
+
   .content-container img {
     padding-top: 70px;
+  }
+  .content a {
+    text-align: center;
   }
 }
