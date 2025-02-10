@@ -94,14 +94,16 @@ h2 {
   padding-left: 61px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 160px 10px;
 }
 .content {
   padding: 20px 94px 55px 0;
 }
-.content-container h1 {
+.content h1 {
   font-size: 64px;
+  line-height: 80px;
 }
+
 .content-container h2 {
   font-family: var(--secondary-font-family);
   font-weight: bold;
@@ -139,6 +141,9 @@ h2 {
     text-align: center;
     padding: 0;
     margin-top: 0;
+  }
+  .content-container {
+    padding-top: 5px;
   }
   .content-container h1 {
     padding: 0;
