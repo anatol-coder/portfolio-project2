@@ -60,7 +60,6 @@ h2 {
 }
 nav {
   padding: 40px 0;
-  background-color: var(--secondary-color);
 }
 nav .logo {
   max-height: 40px;
@@ -149,6 +148,32 @@ nav a {
   font-size: 16px;
   font-weight: regular;
 }
+footer .work-inquiry {
+  background: var(--secondary-color);
+  margin: 132px 213px 331px 67px;
+  border-radius: 8px;
+}
+footer .social-links {
+  text-align: center;
+}
+footer .email-link a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+footer .social-media-links a {
+  color: var(--branding-color);
+  font-size: 18px;
+  margin-left: 30px;
+  background-color: var(--secondary-color);
+  padding: 20px 25px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-media-links a:hover {
+  background-color: var(--branding-color);
+  color: var(--secondary-color);
+}
 
 @media (max-width: 900px) {
   .hero h1 {
@@ -162,15 +187,21 @@ nav a {
 
   .images-descriptions h2 {
     font-size: 50px;
+    margin: 5px 0;
+    padding: 0;
   }
   .images-descriptions p {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    margin-top: 0;
   }
   .description {
     display: block;
     margin: 0 auto;
     width: 100%;
-    padding-top: 10px;
+    padding: 0 10px;
+  }
+  .description p {
+    padding: 0;
   }
   .content {
     text-align: center;
@@ -180,6 +211,9 @@ nav a {
 
   .content-container img {
     padding-top: 70px;
+  }
+  .content-container {
+    padding: 60px 10px;
   }
   .content a {
     text-align: center;
