@@ -58,6 +58,41 @@ h2 {
   font-weight: bold;
   font-size: 64px;
 }
+nav {
+  padding: 40px 0;
+  background-color: var(--secondary-color);
+}
+nav .logo {
+  max-height: 40px;
+}
+
+nav .logo-small {
+  max-height: 30px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  margin-left: 7px;
+  color: #272142;
+}
+
+nav li.active {
+  color: var(--branding-color);
+}
+
+nav li:hover {
+  color: var(--branding-color);
+}
+
+nav a {
+  text-decoration: none;
+}
+
 .btn-branding-outsourcing {
   color: var(--branding-color);
   border-color: var(--branding-color);
